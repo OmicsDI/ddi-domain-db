@@ -89,6 +89,7 @@ public class DSField {
         public static final Field REANALYSIS_COUNT = new Field("reanalysis_count", OPTIONAL, ADDITIONAL, "");
         public static final Field REANALYSIS_COUNT_SCALED = new Field("reanalysis_count_scaled", OPTIONAL, ADDITIONAL, "");
         public static final Field IS_PRIVATE = new Field("isPrivate", OPTIONAL, ADDITIONAL, "");
+        public static final Field SEARCH_DOMAIN = new Field("search_domains", OPTIONAL, ADDITIONAL, "");
     }
 
     public static class Configurations {
