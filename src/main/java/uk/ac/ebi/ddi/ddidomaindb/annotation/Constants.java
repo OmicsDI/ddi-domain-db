@@ -42,6 +42,7 @@ public class Constants {
     public static final String ENAWSGFILECOLUMN = "study_accession,embl_file,fasta_file,master_file";
     public static final String ENAANALYSISCOLUMN = "study_accession,submitted_ftp,submitted_aspera,submitted_galaxy";
     public static final String ENAREADRUNCOLUMN = "study_accession,fastq_ftp,fastq_aspera,fastq_galaxy";
+
     public static final String[] DATASET_SUMMARY        = {
             DSField.DESCRIPTION.getName(),
             DSField.NAME.getName(),
@@ -53,5 +54,17 @@ public class Constants {
             DSField.CrossRef.ENSEMBL_EXPRESSION_ATLAS.getName().toUpperCase(),
             Constants.UNIPROT,
             Constants.CHEBI};
+
+    /*Used in Similarity , Search metrics*/
+    public static final String OMICS_DOMAIN = "omics";
+    public static final String ATLAS_GENES = "atlas-genes";
+    public static final String ATLAS_GENES_DIFFERENTIAL = "atlas-genes-differential";
+    public static final String METABOLIGHTS = "metabolights";
+    public static final String RESULT = "result";
+    public static final String DESCENDING_ORDER = "descending";
+    public static final String BIOMODELS_REFERENCES = "biomodels__db";
+    public static final String PUBLICATION_DATE = "publication";
+    public static final String DATE_FORMAT_YYYY = "yyyy/MM/dd";
+    public static final String DATASETS_COLLECTION = "datasets.dataset";
 }
 
