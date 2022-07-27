@@ -78,18 +78,18 @@ public class DSField {
         public static final Field CURATOR_KEYWORDS = new Field("curator_keywords", UNKNOWN, ADDITIONAL, "Submitter Keywords");
         public static final Field DATASET_TYPE = new Field("dataset_type", MANDATORY, ADDITIONAL, "Type of Experiment");
         public static final Field GENE_NAME = new Field("gene_name", OPTIONAL, ADDITIONAL, "Additional Gene Name");
-        public static final Field DOWNLOAD_COUNT = new Field("download_count", OPTIONAL, ADDITIONAL, "");
-        public static final Field DOWNLOAD_COUNT_SCALED = new Field("download_count_scaled", OPTIONAL, ADDITIONAL, "");
-        public static final Field SEARCH_COUNT = new Field("search_count", OPTIONAL, ADDITIONAL, "");
-        public static final Field SEARCH_COUNT_SCALED = new Field("normalized_connections", OPTIONAL, ADDITIONAL, "");
-        public static final Field CITATION_COUNT = new Field("citation_count", OPTIONAL, ADDITIONAL, "");
-        public static final Field CITATION_COUNT_SCALED = new Field("citation_count_scaled", OPTIONAL, ADDITIONAL, "");
-        public static final Field VIEW_COUNT = new Field("view_count", OPTIONAL, ADDITIONAL, "");
-        public static final Field VIEW_COUNT_SCALED = new Field("view_count_scaled", OPTIONAL, ADDITIONAL, "");
-        public static final Field REANALYSIS_COUNT = new Field("reanalysis_count", OPTIONAL, ADDITIONAL, "");
-        public static final Field REANALYSIS_COUNT_SCALED = new Field("reanalysis_count_scaled", OPTIONAL, ADDITIONAL, "");
-        public static final Field IS_PRIVATE = new Field("isPrivate", OPTIONAL, ADDITIONAL, "");
-        public static final Field SEARCH_DOMAIN = new Field("search_domains", OPTIONAL, ADDITIONAL, "");
+        public static final Field DOWNLOAD_COUNT = new Field("download_count", UNKNOWN, ADDITIONAL, "Download count");
+        public static final Field DOWNLOAD_COUNT_SCALED = new Field("download_count_scaled", UNKNOWN, ADDITIONAL, "Download count scaled");
+        public static final Field SEARCH_COUNT = new Field("search_count", UNKNOWN, ADDITIONAL, "Search Count");
+        public static final Field SEARCH_COUNT_SCALED = new Field("normalized_connections", UNKNOWN, ADDITIONAL, "Search Count scaled");
+        public static final Field CITATION_COUNT = new Field("citation_count", UNKNOWN, ADDITIONAL, "Citation Count");
+        public static final Field CITATION_COUNT_SCALED = new Field("citation_count_scaled", UNKNOWN, ADDITIONAL, "Citation Count Scaled");
+        public static final Field VIEW_COUNT = new Field("view_count", UNKNOWN, ADDITIONAL, "View Count");
+        public static final Field VIEW_COUNT_SCALED = new Field("view_count_scaled", UNKNOWN, ADDITIONAL, "View Count Scaled");
+        public static final Field REANALYSIS_COUNT = new Field("reanalysis_count", UNKNOWN, ADDITIONAL, "Reanalysis Count");
+        public static final Field REANALYSIS_COUNT_SCALED = new Field("reanalysis_count_scaled", UNKNOWN, ADDITIONAL, "Reanalysis Count Scaled");
+        public static final Field IS_PRIVATE = new Field("isPrivate", UNKNOWN, ADDITIONAL, "IsPrivate");
+        public static final Field SEARCH_DOMAIN = new Field("search_domains", UNKNOWN, ADDITIONAL, "Search Domains");
     }
 
     public static class Configurations {
