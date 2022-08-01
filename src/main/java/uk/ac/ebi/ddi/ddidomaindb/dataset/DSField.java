@@ -76,7 +76,7 @@ public class DSField {
         public static final Field PROTEIN_NAME = new Field("protein_name", OPTIONAL, ADDITIONAL, "Protein Names for the Database");
         public static final Field FUNDING = new Field("funding", OPTIONAL, ADDITIONAL, "Funding agency or grant");
         public static final Field CURATOR_KEYWORDS = new Field("curator_keywords", UNKNOWN, ADDITIONAL, "Submitter Keywords");
-        public static final Field DATASET_TYPE = new Field("dataset_type", MANDATORY, ADDITIONAL, "Type of Experiment");
+        public static final Field DATASET_TYPE = new Field("dataset_type", SUGGESTED, ADDITIONAL, "Type of Experiment");
         public static final Field GENE_NAME = new Field("gene_name", OPTIONAL, ADDITIONAL, "Additional Gene Name");
         public static final Field DOWNLOAD_COUNT = new Field("download_count", UNKNOWN, ADDITIONAL, "Download count");
         public static final Field DOWNLOAD_COUNT_SCALED = new Field("download_count_scaled", UNKNOWN, ADDITIONAL, "Download count scaled");
