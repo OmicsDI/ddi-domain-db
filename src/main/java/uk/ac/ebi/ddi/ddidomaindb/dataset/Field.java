@@ -62,7 +62,7 @@ public class Field {
     public static List<Field> getValuesByCategory(FieldCategory category, FieldType unknown) {
         List<Field> vReturn = new ArrayList<>();
         for (Field value : fields) {
-            if (value.getCategory() == category && !(value.getType() == unknown)) {
+            if (value.getCategory() == category && (value.getType() == unknown)) {
                 vReturn.add(value);
             }
         }
