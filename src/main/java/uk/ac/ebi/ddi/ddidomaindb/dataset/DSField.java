@@ -14,8 +14,10 @@ public class DSField {
 
 
     public static class Date {
-        public static final Field PUBLICATION = new Field("publication", MANDATORY, DATE, "Dataset Publication Date");
-        public static final Field PUBLICATION_UPDATED = new Field("updated", UNKNOWN, DATE, "Dataset Updated Date");
+        public static final Field PUBLICATION = new Field("publication", OPTIONAL, DATE, "Dataset Publication Date");
+        public static final Field CREATION = new Field("creation", OPTIONAL, DATE, "Dataset Creation Date");
+        public static final Field SUBMISSION = new Field("submission", OPTIONAL, DATE, "Dataset Submission Date");
+        public static final Field PUBLICATION_UPDATED = new Field("updated", OPTIONAL, DATE, "Dataset Updated Date");
     }
 
     public static class CrossRef {

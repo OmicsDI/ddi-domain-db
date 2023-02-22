@@ -15,7 +15,7 @@
 
     <groupId>uk.ac.ebi.ddi</groupId>
     <artifactId>ddi-domain-db</artifactId>
-    <version>1.4.2-SNAPSHOT</version>
+    <version>1.4.2</version>
     <build>
         <plugins>
             <plugin>
